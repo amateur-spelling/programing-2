@@ -1,0 +1,30 @@
+print:(Hello World)
+#This is a single-line comment
+""" Data Types:
+int - Integer (whole number)
+float - Floating-point Number (number w/ decimal)
+str - String (text)
+chr - character (single keyboard character)
+bool - boolean (either True or False, only)
+"""
+
+""" Arithmetic Operators:
++ Add
+- Subtract
+* Multiply
+/ Divide
+// Floor Divide (Divide and round-down to nearest int)
+% mod (Modulus/Remainder from Int Division)
+** Pow 
+"""
+
+""" Assignment Operatiors:
+= Value assignment (x =y)
++= Add to (x += y is shorthand for x = x + y)
+-=
+*=
+/=
+//=
+%=
+**=
+"""
