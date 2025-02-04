@@ -68,9 +68,11 @@ class MainForm(Form):
 	def Button1Click(self, sender, e):
 		self._listBox1.Items.Clear()
 		lcv = 0
-		Var1 = 1
+		num = 1
+		VarSq = 1
+		VarRt = 1
 		while lcv > 50:
-			
+			VarSq = 
 
 	def Button2Click(self, sender, e):
 		self._listBox1.Items.Clear()
