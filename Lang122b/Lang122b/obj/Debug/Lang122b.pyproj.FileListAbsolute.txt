@@ -7,6 +7,4 @@ C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Dy
 C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Scripting.dll
 C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Scripting.Metadata.dll
 C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.pyprojResolveAssemblyReference.cache
-C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.MainForm.resources
-C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.pyproj.GenerateResource.Cache
 C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.exe
