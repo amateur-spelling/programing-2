@@ -1,0 +1,10 @@
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Lang122b.exe.config
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Lang122b.exe
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Lang122b.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\IronPython.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\IronPython.Modules.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Scripting.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.pyprojResolveAssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\Lang122b\Lang122b\obj\Debug\Lang122b.exe
