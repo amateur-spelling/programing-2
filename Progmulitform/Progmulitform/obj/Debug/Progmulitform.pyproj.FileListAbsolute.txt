@@ -1,0 +1,13 @@
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Progmulitform.exe.config
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Progmulitform.exe
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Progmulitform.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\IronPython.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\IronPython.Modules.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Microsoft.Scripting.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\obj\Debug\Progmulitform.pyprojResolveAssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\obj\Debug\Progmulitform.Form1.resources
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\obj\Debug\Progmulitform.MainForm.resources
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\obj\Debug\Progmulitform.pyproj.GenerateResource.Cache
+C:\Users\lavelle.c\Desktop\programing 2\Progmulitform\Progmulitform\obj\Debug\Progmulitform.exe
