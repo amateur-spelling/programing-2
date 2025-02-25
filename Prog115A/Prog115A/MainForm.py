@@ -76,4 +76,4 @@ class MainForm(Form):
 		self._listBox1.Items.Clear()
 
 	def Button3Click(self, sender, e):
-		Application.Exit
+		Application.Exit()
