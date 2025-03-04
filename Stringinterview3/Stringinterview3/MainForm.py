@@ -85,7 +85,7 @@ class MainForm(Form):
 		retur = ""
 		perchance = 0
 		check = 0
-		lcv = 0
+		lcv = 1	
 		while lcv <= len(string)-1:
 			if string[check] == string[lcv]:
 				perchance += 1
