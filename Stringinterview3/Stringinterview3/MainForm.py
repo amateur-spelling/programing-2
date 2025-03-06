@@ -85,7 +85,7 @@ class MainForm(Form):
 		retur = ""
 		perchance = 0
 		check = 0
-		lcv = 1	
+		lcv = 0	
 		while lcv <= len(string)-1:
 			if string[check] == string[lcv]:
 				perchance += 1
@@ -93,10 +93,13 @@ class MainForm(Form):
 			if perchance > 1:
 				check += 1 
 				lcv = 0
+				perchance = 0
 			else: 
 				retur = string[check]
 				self._label1.Text = retur
-
+	
+			
+			
 	def Button2Click(self, sender, e):
 		self._textBox1.Text = ""
 		self._label1.Text = ""
