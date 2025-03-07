@@ -20,7 +20,7 @@
     <DebugInfo>True</DebugInfo>
     <StartArguments>-X:Debug Program.py</StartArguments>
     <StartWorkingDirectory>.\</StartWorkingDirectory>
-    <StartAction>Program</StartAction>
+    <StartAction>Project</StartAction>
     <StartProgram>C:\Program Files (x86)\SharpDevelop\4.4\bin\..\AddIns\BackendBindings\PythonBinding\ipy.exe</StartProgram>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
@@ -59,31 +59,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Deck.py" />
     <Compile Include="MainForm.py" />
-    <Compile Include="Miscellaneous.py" />
     <Compile Include="Program.py" />
-    <Compile Include="Truck.py" />
-    <Compile Include="Wheel.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Deck.resx">
-      <DependentUpon>Deck.py</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.py</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Miscellaneous.resx">
-      <DependentUpon>Miscellaneous.py</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Truck.resx">
-      <DependentUpon>Truck.py</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Wheel.resx">
-      <DependentUpon>Wheel.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />
