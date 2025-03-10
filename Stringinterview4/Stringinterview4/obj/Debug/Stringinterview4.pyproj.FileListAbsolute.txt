@@ -1,0 +1,12 @@
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Stringinterview4.exe.config
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Stringinterview4.exe
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Stringinterview4.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\IronPython.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\IronPython.Modules.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Microsoft.Scripting.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\obj\Debug\Stringinterview4.pyprojResolveAssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\obj\Debug\Stringinterview4.MainForm.resources
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\obj\Debug\Stringinterview4.pyproj.GenerateResource.Cache
+C:\Users\lavelle.c\Desktop\programing 2\Stringinterview4\Stringinterview4\obj\Debug\Stringinterview4.exe

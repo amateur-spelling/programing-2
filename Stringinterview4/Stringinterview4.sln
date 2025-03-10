@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "Stringinterview4", "Stringinterview4\Stringinterview4.pyproj", "{0CD402CD-B4C4-4870-A600-E00CB4C843CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CD402CD-B4C4-4870-A600-E00CB4C843CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CD402CD-B4C4-4870-A600-E00CB4C843CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CD402CD-B4C4-4870-A600-E00CB4C843CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0CD402CD-B4C4-4870-A600-E00CB4C843CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal
