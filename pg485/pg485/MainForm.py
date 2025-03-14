@@ -10,7 +10,7 @@ class MainForm(Form):
 		self.stotal = 0
 		self.total = 0
 		self.tax = 0
-		self.AsT = False
+		self.AsT = ""
 	
 	def InitializeComponent(self):
 		self._button1 = System.Windows.Forms.Button()
@@ -162,7 +162,7 @@ class MainForm(Form):
 		self._groupBox4.Controls.Add(self._radioButton15)
 		self._groupBox4.Controls.Add(self._radioButton14)
 		self._groupBox4.Controls.Add(self._radioButton13)
-		self._groupBox4.Location = System.Drawing.Point(272, 205)
+		self._groupBox4.Location = System.Drawing.Point(272, 236)
 		self._groupBox4.Name = "groupBox4"
 		self._groupBox4.Size = System.Drawing.Size(204, 119)
 		self._groupBox4.TabIndex = 11
@@ -334,7 +334,7 @@ class MainForm(Form):
 		# MainForm
 		# 
 		self.BackColor = System.Drawing.Color.PaleGreen
-		self.ClientSize = System.Drawing.Size(782, 448)
+		self.ClientSize = System.Drawing.Size(782, 409)
 		self.Controls.Add(self._groupBox1)
 		self.Controls.Add(self._groupBox2)
 		self.Controls.Add(self._groupBox4)
@@ -398,52 +398,52 @@ class MainForm(Form):
 		self._label3.Text = "$" + str(self.total)
 
 	def RadioButton1CheckedChanged(self, sender, e):
-		pass
+		self.Ast += "a"
 
 	def RadioButton1Click(self, sender, e):
 		pass
 
 	def RadioButton5CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "e"
 
 	def RadioButton2CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "b"
 
 	def RadioButton3CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "c"
 
 	def RadioButton4CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "d"
 
 	def RadioButton6CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "f"
 
 	def RadioButton7CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "g"
 
 	def RadioButton8CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "h"
 
 	def RadioButton9CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "i"
 
 	def RadioButton10CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "j"
 
 	def RadioButton11CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "k"
 
 	def RadioButton12CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "l"
 
 	def RadioButton13CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "m"
 
 	def RadioButton14CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "n"
 
 	def RadioButton15CheckedChanged(self, sender, e):
-		pass
+		self.AsT += "o"
 
 	def Button2Click(self, sender, e):
 		self._label1.Text = "Subtotal"
