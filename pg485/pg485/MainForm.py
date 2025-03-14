@@ -8,6 +8,9 @@ class MainForm(Form):
 	def __init__(self):
 		self.InitializeComponent()
 		self.stotal = 0
+		self.total = 0
+		self.tax = 0
+		self.AsT = False
 	
 	def InitializeComponent(self):
 		self._button1 = System.Windows.Forms.Button()
@@ -63,6 +66,7 @@ class MainForm(Form):
 		self._button2.TabIndex = 5
 		self._button2.Text = "Clear"
 		self._button2.UseVisualStyleBackColor = False
+		self._button2.Click += self.Button2Click
 		# 
 		# button3
 		# 
@@ -128,6 +132,7 @@ class MainForm(Form):
 		self._radioButton12.TabStop = True
 		self._radioButton12.Text = "The Street King         $50"
 		self._radioButton12.UseVisualStyleBackColor = True
+		self._radioButton12.CheckedChanged += self.RadioButton12CheckedChanged
 		# 
 		# radioButton11
 		# 
@@ -138,6 +143,7 @@ class MainForm(Form):
 		self._radioButton11.TabStop = True
 		self._radioButton11.Text = "The Dictator of Grind $45"
 		self._radioButton11.UseVisualStyleBackColor = True
+		self._radioButton11.CheckedChanged += self.RadioButton11CheckedChanged
 		# 
 		# radioButton10
 		# 
@@ -148,6 +154,7 @@ class MainForm(Form):
 		self._radioButton10.TabStop = True
 		self._radioButton10.Text = "The Master Thrasher $60"
 		self._radioButton10.UseVisualStyleBackColor = True
+		self._radioButton10.CheckedChanged += self.RadioButton10CheckedChanged
 		# 
 		# groupBox4
 		# 
@@ -171,6 +178,7 @@ class MainForm(Form):
 		self._radioButton15.TabStop = True
 		self._radioButton15.Text = "8.5 axle   $45"
 		self._radioButton15.UseVisualStyleBackColor = True
+		self._radioButton15.CheckedChanged += self.RadioButton15CheckedChanged
 		# 
 		# radioButton14
 		# 
@@ -181,6 +189,7 @@ class MainForm(Form):
 		self._radioButton14.TabStop = True
 		self._radioButton14.Text = "8.0 axle   $40"
 		self._radioButton14.UseVisualStyleBackColor = True
+		self._radioButton14.CheckedChanged += self.RadioButton14CheckedChanged
 		# 
 		# radioButton13
 		# 
@@ -191,6 +200,7 @@ class MainForm(Form):
 		self._radioButton13.TabStop = True
 		self._radioButton13.Text = "7.75 axle $35"
 		self._radioButton13.UseVisualStyleBackColor = True
+		self._radioButton13.CheckedChanged += self.RadioButton13CheckedChanged
 		# 
 		# groupBox2
 		# 
@@ -215,6 +225,7 @@ class MainForm(Form):
 		self._radioButton9.TabStop = True
 		self._radioButton9.Text = "61mm $28"
 		self._radioButton9.UseVisualStyleBackColor = True
+		self._radioButton9.CheckedChanged += self.RadioButton9CheckedChanged
 		# 
 		# radioButton8
 		# 
@@ -225,6 +236,7 @@ class MainForm(Form):
 		self._radioButton8.TabStop = True
 		self._radioButton8.Text = "58mm $24"
 		self._radioButton8.UseVisualStyleBackColor = True
+		self._radioButton8.CheckedChanged += self.RadioButton8CheckedChanged
 		# 
 		# radioButton7
 		# 
@@ -235,6 +247,7 @@ class MainForm(Form):
 		self._radioButton7.TabStop = True
 		self._radioButton7.Text = "55mm $22"
 		self._radioButton7.UseVisualStyleBackColor = True
+		self._radioButton7.CheckedChanged += self.RadioButton7CheckedChanged
 		# 
 		# radioButton6
 		# 
@@ -245,6 +258,7 @@ class MainForm(Form):
 		self._radioButton6.TabStop = True
 		self._radioButton6.Text = "51mm $20"
 		self._radioButton6.UseVisualStyleBackColor = True
+		self._radioButton6.CheckedChanged += self.RadioButton6CheckedChanged
 		# 
 		# groupBox1
 		# 
@@ -270,6 +284,7 @@ class MainForm(Form):
 		self._radioButton5.TabStop = True
 		self._radioButton5.Text = "Assembly    $10"
 		self._radioButton5.UseVisualStyleBackColor = True
+		self._radioButton5.CheckedChanged += self.RadioButton5CheckedChanged
 		# 
 		# radioButton4
 		# 
@@ -280,6 +295,7 @@ class MainForm(Form):
 		self._radioButton4.TabStop = True
 		self._radioButton4.Text = "Nut/Bolt kit $3"
 		self._radioButton4.UseVisualStyleBackColor = True
+		self._radioButton4.CheckedChanged += self.RadioButton4CheckedChanged
 		# 
 		# radioButton3
 		# 
@@ -290,6 +306,7 @@ class MainForm(Form):
 		self._radioButton3.TabStop = True
 		self._radioButton3.Text = "Rising pads $2"
 		self._radioButton3.UseVisualStyleBackColor = True
+		self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
 		# 
 		# radioButton2
 		# 
@@ -300,6 +317,7 @@ class MainForm(Form):
 		self._radioButton2.TabStop = True
 		self._radioButton2.Text = "Bearing       $30"
 		self._radioButton2.UseVisualStyleBackColor = True
+		self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
 		# 
 		# radioButton1
 		# 
@@ -343,13 +361,91 @@ class MainForm(Form):
 		pass
 
 	def Button1Click(self, sender, e):
-		total = 0
-		tax = 0
-		
-		self._label1.Text == str(self.stotal)
+		if self.RadioButton1CheckedChanged == True:
+			self.stotal += 10
+		if self.RadioButton2CheckedChanged == True:
+			self.stotal += 30
+		if self.RadioButton3CheckedChanged == True:
+			self.stotal += 2
+		if self.RadioButton4CheckedChanged == True:
+			self.stotal += 3
+		if self.RadioButton5CheckedChanged == True:
+			self.total += 10
+		if self.RadioButton6CheckedChanged == True:
+			self.stotal += 20
+		if self.RadioButton7CheckedChanged == True:
+			self.stotal += 22
+		if self.RadioButton8CheckedChanged == True:
+			self.stotal += 24
+		if self.RadioButton9CheckedChanged == True:
+			self.stotal += 28
+		if self.RadioButton10CheckedChanged == True:
+			self.stotal += 60
+		if self.RadioButton11CheckedChanged == True:
+			self.stotal += 45
+		if self.RadioButton12CheckedChanged == True:
+			self.stotal += 50
+		if self.RadioButton13CheckedChanged == True:
+			self.stotal += 35
+		if self.RadioButton14CheckedChanged == True:
+			self.stotal += 40
+		if self.RadioButton15CheckedChanged == True:
+			self.stotal += 45
+		self.tax = self.stotal * 0.06
+		self.total += self.stotal + self.tax
+		self._label1.Text = "$" + str(self.stotal)
+		self._label2.Text = "$" + str(self.tax)
+		self._label3.Text = "$" + str(self.total)
 
 	def RadioButton1CheckedChanged(self, sender, e):
-		self.stotal += 5
+		pass
 
 	def RadioButton1Click(self, sender, e):
 		pass
+
+	def RadioButton5CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton2CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton3CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton4CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton6CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton7CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton8CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton9CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton10CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton11CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton12CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton13CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton14CheckedChanged(self, sender, e):
+		pass
+
+	def RadioButton15CheckedChanged(self, sender, e):
+		pass
+
+	def Button2Click(self, sender, e):
+		self._label1.Text = "Subtotal"
+		self._label2.Text = "Tax"
+		self._label3.Text = "Total"
