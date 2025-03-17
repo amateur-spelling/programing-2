@@ -355,41 +355,44 @@ class MainForm(Form):
 
 
 	def Button3Click(self, sender, e):
-		pass
+		Application.Exit()
 
 	def Button4Click(self, sender, e):
 		pass
 
 	def Button1Click(self, sender, e):
-		if self.RadioButton1CheckedChanged == True:
+		self.stotal = 0
+		self.tax = 0
+		self.total = 0
+		if self._radioButton1.Checked == True:
 			self.stotal += 10
-		if self.RadioButton2CheckedChanged == True:
+		if self._radioButton2.Checked == True:
 			self.stotal += 30
-		if self.RadioButton3CheckedChanged == True:
+		if self._radioButton3.Checked == True:
 			self.stotal += 2
-		if self.RadioButton4CheckedChanged == True:
+		if self._radioButton4.Checked == True:
 			self.stotal += 3
-		if self.RadioButton5CheckedChanged == True:
+		if self._radioButton5.Checked == True:
 			self.total += 10
-		if self.RadioButton6CheckedChanged == True:
+		if self._radioButton6.Checked == True:
 			self.stotal += 20
-		if self.RadioButton7CheckedChanged == True:
+		if self._radioButton7.Checked == True:
 			self.stotal += 22
-		if self.RadioButton8CheckedChanged == True:
+		if self._radioButton8.Checked == True:
 			self.stotal += 24
-		if self.RadioButton9CheckedChanged == True:
+		if self._radioButton9.Checked == True:
 			self.stotal += 28
-		if self.RadioButton10CheckedChanged == True:
+		if self._radioButton10.Checked == True:
 			self.stotal += 60
 		if self.RadioButton11CheckedChanged == True:
 			self.stotal += 45
-		if self.RadioButton12CheckedChanged == True:
+		if self._radioButton12.Checked == True:
 			self.stotal += 50
-		if self.RadioButton13CheckedChanged == True:
+		if self._radioButton13.Checked == True:
 			self.stotal += 35
-		if self.RadioButton14CheckedChanged == True:
+		if self._radioButton14.Checked == True:
 			self.stotal += 40
-		if self.RadioButton15CheckedChanged == True:
+		if self._radioButton15.Checked == True:
 			self.stotal += 45
 		self.tax = self.stotal * 0.06
 		self.total += self.stotal + self.tax
@@ -398,7 +401,7 @@ class MainForm(Form):
 		self._label3.Text = "$" + str(self.total)
 
 	def RadioButton1CheckedChanged(self, sender, e):
-		self.Ast += "a"
+		self.AsT += "a"
 
 	def RadioButton1Click(self, sender, e):
 		pass
