@@ -1,0 +1,12 @@
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\obj\Debug\prog447MenuDemo.pyprojResolveAssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\obj\Debug\prog447MenuDemo.MainForm.resources
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\obj\Debug\prog447MenuDemo.pyproj.GenerateResource.Cache
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\prog447MenuDemo.exe.config
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\prog447MenuDemo.exe
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\prog447MenuDemo.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\IronPython.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\IronPython.Modules.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\Microsoft.Scripting.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\lavelle.c\Desktop\programing 2\prog447MenuDemo\prog447MenuDemo\obj\Debug\prog447MenuDemo.exe

@@ -27,7 +27,7 @@ class MainForm(Form):
 		# 
 		# lblMessage
 		# 
-		self._lblMessage.Location = System.Drawing.Point(22, 70)
+		self._lblMessage.Location = System.Drawing.Point(25, 85)
 		self._lblMessage.Name = "lblMessage"
 		self._lblMessage.Size = System.Drawing.Size(178, 67)
 		self._lblMessage.TabIndex = 0
@@ -42,7 +42,7 @@ class MainForm(Form):
 			self._mnuHelp]))
 		self._menufile1.Location = System.Drawing.Point(0, 0)
 		self._menufile1.Name = "menufile1"
-		self._menufile1.Size = System.Drawing.Size(641, 24)
+		self._menufile1.Size = System.Drawing.Size(281, 24)
 		self._menufile1.TabIndex = 1
 		self._menufile1.Text = "menuStrip1"
 		# 
@@ -57,7 +57,7 @@ class MainForm(Form):
 		# mnuExit
 		# 
 		self._mnuExit.Name = "mnuExit"
-		self._mnuExit.Size = System.Drawing.Size(92, 22)
+		self._mnuExit.Size = System.Drawing.Size(152, 22)
 		self._mnuExit.Text = "&Exit"
 		self._mnuExit.Click += self.MnuExitClick
 		# 
@@ -126,12 +126,13 @@ class MainForm(Form):
 		# mnuAbout
 		# 
 		self._mnuAbout.Name = "mnuAbout"
-		self._mnuAbout.Size = System.Drawing.Size(107, 22)
+		self._mnuAbout.Size = System.Drawing.Size(152, 22)
 		self._mnuAbout.Text = "&About"
+		self._mnuAbout.Click += self.MnuAboutClick
 		# 
 		# MainForm
 		# 
-		self.ClientSize = System.Drawing.Size(641, 400)
+		self.ClientSize = System.Drawing.Size(281, 243)
 		self.Controls.Add(self._lblMessage)
 		self.Controls.Add(self._menufile1)
 		self.MainMenuStrip = self._menufile1
@@ -144,19 +145,28 @@ class MainForm(Form):
 
 
 	def VisableToolStripMenuItemClick(self, sender, e):
-		pass
+		if self.mnuVisible.Checked == True:
+			self._lblMessage.Visible = True
+		else:
+			self._lblMessage.Visible = False
 
 	def MnuExitClick(self, sender, e):
 		Application.Exit()
 
 	def MnuRedClick(self, sender, e):
-		self._lblMessage.Forecolor = Color.Red
+		self._lblMessage.ForeColor = Color.Red
 
 	def MnuGreenClick(self, sender, e):
-		self._lblMessage.Forecolor = Color.Green
+		self._lblMessage.ForeColor = Color.Green
 
 	def MnuBlueClick(self, sender, e):
-		self._lblMessage.Forecolor = Color.Blue
+		self._lblMessage.ForeColor = Color.Blue
 
 	def MnuBlackClick(self, sender, e):
-		self._lblMessage.Forecolor = Color.Black
+		self._lblMessage.ForeColor = Color.Black
+
+	def MnuAboutClick(self, sender, e):
+		MessageBox.Show("Menu System Demo\n"    
+					"Designed for Starting Out "  
+					"with Windows From Applications",
+					"About Menu Demo")
