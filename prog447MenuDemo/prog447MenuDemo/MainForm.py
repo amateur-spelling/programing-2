@@ -145,7 +145,7 @@ class MainForm(Form):
 
 
 	def VisableToolStripMenuItemClick(self, sender, e):
-		if self.mnuVisible.Checked == True:
+		if self._mnuVisible.Checked == True:
 			self._lblMessage.Visible = True
 		else:
 			self._lblMessage.Visible = False
