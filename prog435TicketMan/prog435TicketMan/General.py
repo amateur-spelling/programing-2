@@ -185,6 +185,7 @@ class General(Form):
 		self._button1.TabIndex = 2
 		self._button1.Text = "Calculate"
 		self._button1.UseVisualStyleBackColor = True
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
@@ -213,3 +214,12 @@ class General(Form):
 		self._groupBox3.ResumeLayout(False)
 		self.ResumeLayout(False)
 
+
+	def Button1Click(self, sender, e):
+		numtick = 0
+		tickcost = 0.0
+		saletax = 0.0
+		total = 0.0
+		
+		numtick = textBox1.Text
+		
