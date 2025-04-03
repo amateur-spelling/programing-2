@@ -8,6 +8,10 @@ from System.Windows.Forms import *
 class General(Form):
 	def __init__(self):
 		self.InitializeComponent()
+		self.myparent = parent
+		self.A1 = 0
+		self.B1 = 0 
+		self.C1 = 0
 	
 	def InitializeComponent(self):
 		self._groupBox1 = System.Windows.Forms.GroupBox()
@@ -98,6 +102,7 @@ class General(Form):
 		self._radioButton1.TabStop = True
 		self._radioButton1.Text = "Section A"
 		self._radioButton1.UseVisualStyleBackColor = True
+		self._radioButton1.CheckedChanged += self.RadioButton1CheckedChanged
 		# 
 		# radioButton2
 		# 
@@ -108,6 +113,7 @@ class General(Form):
 		self._radioButton2.TabStop = True
 		self._radioButton2.Text = "Section B"
 		self._radioButton2.UseVisualStyleBackColor = True
+		self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
 		# 
 		# radioButton3
 		# 
@@ -118,6 +124,7 @@ class General(Form):
 		self._radioButton3.TabStop = True
 		self._radioButton3.Text = "Section C"
 		self._radioButton3.UseVisualStyleBackColor = True
+		self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
 		# 
 		# label2
 		# 
@@ -196,6 +203,7 @@ class General(Form):
 		self._button2.TabIndex = 3
 		self._button2.Text = "Exit"
 		self._button2.UseVisualStyleBackColor = True
+		self._button2.Click += self.Button2Click
 		# 
 		# General
 		# 
@@ -208,6 +216,7 @@ class General(Form):
 		self.Controls.Add(self._groupBox1)
 		self.Name = "General"
 		self.Text = "General"
+		self.FormClosing += self.GeneralFormClosing
 		self._groupBox1.ResumeLayout(False)
 		self._groupBox1.PerformLayout()
 		self._groupBox2.ResumeLayout(False)
@@ -222,4 +231,33 @@ class General(Form):
 		total = 0.0
 		
 		numtick = textBox1.Text
+		if self.A1 == 1:
+			tickcost = 20
+		if self.B1 == 1:
+			tickcost = 15
+		if self.C1 == 1:
+			tickcost = 10
 		
+		
+
+	def GeneralFormClosing(self, sender, e):
+		self.myparent.Show()
+
+	def Button2Click(self, sender, e):
+		self.myparent.Show()
+		self.Close()
+
+	def RadioButton1CheckedChanged(self, sender, e):
+		self.A1 = 1
+		self.B1 = 0
+		self.C1 = 0
+
+	def RadioButton2CheckedChanged(self, sender, e):
+		self.A1 = 0
+		self.B1 = 1
+		self.C1 = 0
+
+	def RadioButton3CheckedChanged(self, sender, e):
+		self.A1 = 0
+		self.B1 = 0
+		self.C1 = 1
