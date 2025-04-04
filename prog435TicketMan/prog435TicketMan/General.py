@@ -6,12 +6,10 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class General(Form):
-	def __init__(self):
+	def __init__(self, parent):
 		self.InitializeComponent()
 		self.myparent = parent
-		self.A1 = 0
-		self.B1 = 0 
-		self.C1 = 0
+		self.A1 = 0.0
 	
 	def InitializeComponent(self):
 		self._groupBox1 = System.Windows.Forms.GroupBox()
@@ -228,15 +226,23 @@ class General(Form):
 		numtick = 0
 		tickcost = 0.0
 		saletax = 0.0
+		subtotal = 0.0
 		total = 0.0
 		
-		numtick = textBox1.Text
+		numtick = int(self._textBox1.Text)
 		if self.A1 == 1:
-			tickcost = 20
-		if self.B1 == 1:
-			tickcost = 15
-		if self.C1 == 1:
-			tickcost = 10
+			tickcost += 20
+		if self.A1 == 2:
+			tickcost += 15
+		if self.A1 == 3:
+			tickcost += 10
+		subtotal = numtick * tickcost
+		saletax = subtotal * 0.06
+		total = subtotal * 1.06
+		
+		self._label5.Text = str(numtick)
+		self._label6.Text = str(saletax)
+		self._label7.Text = str(total)
 		
 		
 
@@ -249,15 +255,11 @@ class General(Form):
 
 	def RadioButton1CheckedChanged(self, sender, e):
 		self.A1 = 1
-		self.B1 = 0
-		self.C1 = 0
+
 
 	def RadioButton2CheckedChanged(self, sender, e):
-		self.A1 = 0
-		self.B1 = 1
-		self.C1 = 0
+		self.A1 = 2
+
 
 	def RadioButton3CheckedChanged(self, sender, e):
-		self.A1 = 0
-		self.B1 = 0
-		self.C1 = 1
+		self.A1 = 3

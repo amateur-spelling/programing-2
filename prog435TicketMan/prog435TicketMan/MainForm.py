@@ -109,6 +109,7 @@ class MainForm(Form):
 		pass
 
 	def Button1Click(self, sender, e):
-		general = General(self)
-		General = show()
-		self = Hide()
+		from General import *
+		General = General(self)
+		General.Show()
+		self.Hide()
