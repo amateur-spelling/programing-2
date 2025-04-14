@@ -1,0 +1,11 @@
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog54a.csproj.AssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog54a.csproj.SuggestedBindingRedirects.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog554a.Form1.resources
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog554a.Properties.Resources.resources
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog54a.csproj.GenerateResource.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog54a.csproj.CoreCompileInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\bin\Debug\Prog554a.exe.config
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\bin\Debug\Prog554a.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\bin\Debug\Prog554a.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog554a.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Prog554a\obj\Debug\Prog554a.pdb

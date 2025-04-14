@@ -62,6 +62,7 @@
     <Compile Include="General.py" />
     <Compile Include="MainForm.py" />
     <Compile Include="Program.py" />
+    <Compile Include="Student.py" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -72,6 +73,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="MainForm.resx">
       <DependentUpon>MainForm.py</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student.resx">
+      <DependentUpon>Student.py</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(PythonBinPath)\SharpDevelop.Build.Python.targets" />

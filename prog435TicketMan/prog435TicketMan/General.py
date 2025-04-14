@@ -183,24 +183,26 @@ class General(Form):
 		# 
 		# button1
 		# 
+		self._button1.BackColor = System.Drawing.Color.Olive
 		self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._button1.Location = System.Drawing.Point(39, 288)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(113, 50)
 		self._button1.TabIndex = 2
 		self._button1.Text = "Calculate"
-		self._button1.UseVisualStyleBackColor = True
+		self._button1.UseVisualStyleBackColor = False
 		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
+		self._button2.BackColor = System.Drawing.Color.Olive
 		self._button2.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._button2.Location = System.Drawing.Point(208, 288)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(118, 50)
 		self._button2.TabIndex = 3
 		self._button2.Text = "Exit"
-		self._button2.UseVisualStyleBackColor = True
+		self._button2.UseVisualStyleBackColor = False
 		self._button2.Click += self.Button2Click
 		# 
 		# General

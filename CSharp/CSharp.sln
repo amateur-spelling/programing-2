@@ -7,11 +7,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hello World", "Hello World\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Hello_Name", "Hello_Name\Hello_Name.csproj", "{EDD84B4E-CD83-48E7-84AB-5C97F163E199}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog52a", "Prog52a\Prog52a.csproj", "{9E06247B-A8E7-4856-916B-3FC898AED2E3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prog52a", "Prog52a\Prog52a.csproj", "{9E06247B-A8E7-4856-916B-3FC898AED2E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54b", "Prog54b\Prog54b.csproj", "{A10FEBA0-D217-45B0-9D4B-092510EA71B0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prog54b", "Prog54b\Prog54b.csproj", "{A10FEBA0-D217-45B0-9D4B-092510EA71B0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54d", "Prog54d\Prog54d.csproj", "{7728507C-52DD-49B0-8AA9-3FA197B086CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prog54d", "Prog54d\Prog54d.csproj", "{7728507C-52DD-49B0-8AA9-3FA197B086CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prog54a", "Prog554a\Prog54a.csproj", "{76D2D2F3-2C18-4899-A1AA-35AA02008903}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7728507C-52DD-49B0-8AA9-3FA197B086CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7728507C-52DD-49B0-8AA9-3FA197B086CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7728507C-52DD-49B0-8AA9-3FA197B086CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76D2D2F3-2C18-4899-A1AA-35AA02008903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76D2D2F3-2C18-4899-A1AA-35AA02008903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76D2D2F3-2C18-4899-A1AA-35AA02008903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76D2D2F3-2C18-4899-A1AA-35AA02008903}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
