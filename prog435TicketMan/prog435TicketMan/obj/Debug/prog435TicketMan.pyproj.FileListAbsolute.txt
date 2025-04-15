@@ -11,3 +11,4 @@ C:\Users\lavelle.c\Desktop\programing 2\prog435TicketMan\prog435TicketMan\obj\De
 C:\Users\lavelle.c\Desktop\programing 2\prog435TicketMan\prog435TicketMan\obj\Debug\prog435TicketMan.pyproj.GenerateResource.Cache
 C:\Users\lavelle.c\Desktop\programing 2\prog435TicketMan\prog435TicketMan\obj\Debug\prog435TicketMan.exe
 C:\Users\lavelle.c\Desktop\programing 2\prog435TicketMan\prog435TicketMan\obj\Debug\prog435TicketMan.General.resources
+C:\Users\lavelle.c\Desktop\programing 2\prog435TicketMan\prog435TicketMan\obj\Debug\prog435TicketMan.Student.resources

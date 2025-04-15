@@ -6,9 +6,9 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class Student(Form):
-	def __init__(self):
+	def __init__(self, parent):
 		self.InitializeComponent()
-	
+		self.myparent = parent
 	def InitializeComponent(self):
 		self._button2 = System.Windows.Forms.Button()
 		self._button1 = System.Windows.Forms.Button()
@@ -36,6 +36,7 @@ class Student(Form):
 		self._button2.TabIndex = 8
 		self._button2.Text = "Exit"
 		self._button2.UseVisualStyleBackColor = False
+		self._button2.Click += self.Button2Click
 		# 
 		# button1
 		# 
@@ -47,6 +48,7 @@ class Student(Form):
 		self._button1.TabIndex = 7
 		self._button1.Text = "Calculate"
 		self._button1.UseVisualStyleBackColor = False
+		self._button1.Click += self.Button1Click
 		# 
 		# groupBox3
 		# 
@@ -160,8 +162,27 @@ class Student(Form):
 		self.Controls.Add(self._groupBox1)
 		self.Name = "Student"
 		self.Text = "Student"
+		self.FormClosing += self.StudentFormClosing
 		self._groupBox3.ResumeLayout(False)
 		self._groupBox1.ResumeLayout(False)
 		self._groupBox1.PerformLayout()
 		self.ResumeLayout(False)
 
+
+	def Button1Click(self, sender, e):
+		tick = int(self._textBox1.Text)
+		subtotal = tick * 7
+		tax = subtotal * 0.06
+		total = subtotal * 1.06
+		
+		self._label5.Text = str(tick)
+		self._label6.Text = str(tax)
+		self._label7.Text = str(total)
+		
+
+	def Button2Click(self, sender, e):
+		self.myparent.Show()
+		self.Close()
+
+	def StudentFormClosing(self, sender, e):
+		self.myparent.Show()
