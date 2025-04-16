@@ -6,8 +6,10 @@ from System.Drawing import *
 from System.Windows.Forms import *
 
 class General(Form):
-	def __init__(self):
+	def __init__(self, parent):
 		self.InitializeComponent()
+		self.myparent = parent
+		self.A1 = 0.0
 	
 	def InitializeComponent(self):
 		self._groupBox1 = System.Windows.Forms.GroupBox()
@@ -98,6 +100,7 @@ class General(Form):
 		self._radioButton1.TabStop = True
 		self._radioButton1.Text = "Section A"
 		self._radioButton1.UseVisualStyleBackColor = True
+		self._radioButton1.CheckedChanged += self.RadioButton1CheckedChanged
 		# 
 		# radioButton2
 		# 
@@ -108,6 +111,7 @@ class General(Form):
 		self._radioButton2.TabStop = True
 		self._radioButton2.Text = "Section B"
 		self._radioButton2.UseVisualStyleBackColor = True
+		self._radioButton2.CheckedChanged += self.RadioButton2CheckedChanged
 		# 
 		# radioButton3
 		# 
@@ -118,6 +122,7 @@ class General(Form):
 		self._radioButton3.TabStop = True
 		self._radioButton3.Text = "Section C"
 		self._radioButton3.UseVisualStyleBackColor = True
+		self._radioButton3.CheckedChanged += self.RadioButton3CheckedChanged
 		# 
 		# label2
 		# 
@@ -178,23 +183,27 @@ class General(Form):
 		# 
 		# button1
 		# 
+		self._button1.BackColor = System.Drawing.Color.Olive
 		self._button1.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._button1.Location = System.Drawing.Point(39, 288)
 		self._button1.Name = "button1"
 		self._button1.Size = System.Drawing.Size(113, 50)
 		self._button1.TabIndex = 2
 		self._button1.Text = "Calculate"
-		self._button1.UseVisualStyleBackColor = True
+		self._button1.UseVisualStyleBackColor = False
+		self._button1.Click += self.Button1Click
 		# 
 		# button2
 		# 
+		self._button2.BackColor = System.Drawing.Color.Olive
 		self._button2.Font = System.Drawing.Font("Microsoft Sans Serif", 14.25, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0)
 		self._button2.Location = System.Drawing.Point(208, 288)
 		self._button2.Name = "button2"
 		self._button2.Size = System.Drawing.Size(118, 50)
 		self._button2.TabIndex = 3
 		self._button2.Text = "Exit"
-		self._button2.UseVisualStyleBackColor = True
+		self._button2.UseVisualStyleBackColor = False
+		self._button2.Click += self.Button2Click
 		# 
 		# General
 		# 
@@ -207,9 +216,52 @@ class General(Form):
 		self.Controls.Add(self._groupBox1)
 		self.Name = "General"
 		self.Text = "General"
+		self.FormClosing += self.GeneralFormClosing
 		self._groupBox1.ResumeLayout(False)
 		self._groupBox1.PerformLayout()
 		self._groupBox2.ResumeLayout(False)
 		self._groupBox3.ResumeLayout(False)
 		self.ResumeLayout(False)
 
+
+	def Button1Click(self, sender, e):
+		numtick = 0
+		tickcost = 0.0
+		saletax = 0.0
+		subtotal = 0.0
+		total = 0.0
+		
+		numtick = int(self._textBox1.Text)
+		if self.A1 == 1:
+			tickcost += 20
+		if self.A1 == 2:
+			tickcost += 15
+		if self.A1 == 3:
+			tickcost += 10
+		subtotal = numtick * tickcost
+		saletax = subtotal * 0.06
+		total = subtotal * 1.06
+		
+		self._label5.Text = str(numtick)
+		self._label6.Text = str(saletax)
+		self._label7.Text = str(total)
+		
+		
+
+	def GeneralFormClosing(self, sender, e):
+		self.myparent.Show()
+
+	def Button2Click(self, sender, e):
+		self.myparent.Show()
+		self.Close()
+
+	def RadioButton1CheckedChanged(self, sender, e):
+		self.A1 = 1
+
+
+	def RadioButton2CheckedChanged(self, sender, e):
+		self.A1 = 2
+
+
+	def RadioButton3CheckedChanged(self, sender, e):
+		self.A1 = 3

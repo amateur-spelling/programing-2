@@ -1,0 +1,15 @@
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\Hello_Name.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\Hello_Name.deps.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\Hello_Name.runtimeconfig.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\Hello_Name.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\ref\Hello_Name.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\bin\Debug\net6.0\Hello_Name.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.csproj.AssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.AssemblyInfoInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.AssemblyInfo.cs
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.csproj.CoreCompileInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\ref\Hello_Name.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Hello_Name\obj\Debug\net6.0\Hello_Name.genruntimeconfig.cache
