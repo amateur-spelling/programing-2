@@ -1,0 +1,15 @@
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.AssemblyInfoInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.AssemblyInfo.cs
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.csproj.CoreCompileInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\LD4-1.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\LD4-1.deps.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\LD4-1.runtimeconfig.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\LD4-1.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\ref\LD4-1.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\bin\Debug\net6.0\LD4-1.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\ref\LD4-1.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.genruntimeconfig.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\LD4-1\obj\Debug\net6.0\LD4-1.csproj.AssemblyReference.cache
