@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LD4-1\\LP4-1.csproj",
-      "projectName": "LP4-1",
-      "projectPath": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LD4-1\\LP4-1.csproj",
+      "projectUniqueName": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LP3-2\\LP3-2.csproj",
+      "projectName": "LP3-2",
+      "projectPath": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LP3-2\\LP3-2.csproj",
       "packagesPath": "C:\\Users\\lavelle.c\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LD4-1\\obj\\",
+      "outputPath": "C:\\Users\\lavelle.c\\Desktop\\programing 2\\CSharp\\LP3-2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lavelle.c\\AppData\\Roaming\\NuGet\\NuGet.Config",
