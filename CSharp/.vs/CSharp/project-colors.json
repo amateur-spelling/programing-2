@@ -60,7 +60,22 @@
       "ProjectGuid": "c1319028-4676-4a0f-a989-843194c6df1f",
       "DisplayName": "Prog122a",
       "ColorIndex": 11
+    },
+    "3ca7bb8c-c0ca-463c-a6dd-03e13f37b3f4": {
+      "ProjectGuid": "3ca7bb8c-c0ca-463c-a6dd-03e13f37b3f4",
+      "DisplayName": "CalcWithFunctions",
+      "ColorIndex": 12
+    },
+    "800dd9d7-34ad-46ba-9013-511fd09f7ed4": {
+      "ProjectGuid": "800dd9d7-34ad-46ba-9013-511fd09f7ed4",
+      "DisplayName": "Pg435TicketSalesCS",
+      "ColorIndex": 13
+    },
+    "83d4899c-1b12-4425-9e6b-809023d6a9b2": {
+      "ProjectGuid": "83d4899c-1b12-4425-9e6b-809023d6a9b2",
+      "DisplayName": "Prog209a",
+      "ColorIndex": 14
     }
   },
-  "NextColorIndex": 12
+  "NextColorIndex": 15
 }
