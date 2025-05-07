@@ -75,7 +75,12 @@
       "ProjectGuid": "83d4899c-1b12-4425-9e6b-809023d6a9b2",
       "DisplayName": "Prog209a",
       "ColorIndex": 14
+    },
+    "f02c6758-9750-4464-8d9c-773614b39c34": {
+      "ProjectGuid": "f02c6758-9750-4464-8d9c-773614b39c34",
+      "DisplayName": "Prog366b",
+      "ColorIndex": 15
     }
   },
-  "NextColorIndex": 15
+  "NextColorIndex": 0
 }
