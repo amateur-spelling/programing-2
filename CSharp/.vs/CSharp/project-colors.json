@@ -80,7 +80,12 @@
       "ProjectGuid": "f02c6758-9750-4464-8d9c-773614b39c34",
       "DisplayName": "Prog366b",
       "ColorIndex": 15
+    },
+    "c6ebd282-dce0-4e80-98fe-765f34796047": {
+      "ProjectGuid": "c6ebd282-dce0-4e80-98fe-765f34796047",
+      "DisplayName": "Progpay",
+      "ColorIndex": 0
     }
   },
-  "NextColorIndex": 0
+  "NextColorIndex": 1
 }
