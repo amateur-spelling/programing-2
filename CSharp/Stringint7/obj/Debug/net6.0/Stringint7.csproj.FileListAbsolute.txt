@@ -1,0 +1,15 @@
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\Stringint7.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\Stringint7.deps.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\Stringint7.runtimeconfig.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\Stringint7.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\ref\Stringint7.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\bin\Debug\net6.0\Stringint7.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.csproj.AssemblyReference.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.AssemblyInfoInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.AssemblyInfo.cs
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.csproj.CoreCompileInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\ref\Stringint7.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint7\obj\Debug\net6.0\Stringint7.genruntimeconfig.cache

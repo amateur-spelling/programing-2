@@ -37,6 +37,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prog366b", "Prog366b\Prog36
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Progpay", "Progpay\Progpay.csproj", "{C6EBD282-DCE0-4E80-98FE-765F34796047}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringint7", "Stringint7\Stringint7.csproj", "{1C21A377-5420-4F14-B6B8-CEBB49E482B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stringint16", "Stringint16\Stringint16.csproj", "{CE680812-53B2-403A-A445-BECA1B0B5F02}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -111,6 +115,14 @@ Global
 		{C6EBD282-DCE0-4E80-98FE-765F34796047}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6EBD282-DCE0-4E80-98FE-765F34796047}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6EBD282-DCE0-4E80-98FE-765F34796047}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C21A377-5420-4F14-B6B8-CEBB49E482B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C21A377-5420-4F14-B6B8-CEBB49E482B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C21A377-5420-4F14-B6B8-CEBB49E482B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C21A377-5420-4F14-B6B8-CEBB49E482B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE680812-53B2-403A-A445-BECA1B0B5F02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE680812-53B2-403A-A445-BECA1B0B5F02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE680812-53B2-403A-A445-BECA1B0B5F02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE680812-53B2-403A-A445-BECA1B0B5F02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

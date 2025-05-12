@@ -1,0 +1,14 @@
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\Stringint16.exe
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\Stringint16.deps.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\Stringint16.runtimeconfig.json
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\Stringint16.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\ref\Stringint16.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\bin\Debug\net6.0\Stringint16.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.AssemblyInfoInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.AssemblyInfo.cs
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.csproj.CoreCompileInputs.cache
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\ref\Stringint16.dll
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.pdb
+C:\Users\lavelle.c\Desktop\programing 2\CSharp\Stringint16\obj\Debug\net6.0\Stringint16.genruntimeconfig.cache
