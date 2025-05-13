@@ -1,6 +1,3 @@
-def cal():
-    pass
-
 
 def main():
     pass
