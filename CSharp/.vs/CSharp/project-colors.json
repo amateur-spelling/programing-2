@@ -85,7 +85,17 @@
       "ProjectGuid": "c6ebd282-dce0-4e80-98fe-765f34796047",
       "DisplayName": "Progpay",
       "ColorIndex": 0
+    },
+    "1c21a377-5420-4f14-b6b8-cebb49e482b5": {
+      "ProjectGuid": "1c21a377-5420-4f14-b6b8-cebb49e482b5",
+      "DisplayName": "Stringint7",
+      "ColorIndex": 1
+    },
+    "ce680812-53b2-403a-a445-beca1b0b5f02": {
+      "ProjectGuid": "ce680812-53b2-403a-a445-beca1b0b5f02",
+      "DisplayName": "Stringint16",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 1
+  "NextColorIndex": 3
 }
