@@ -100,7 +100,12 @@
       "ProjectGuid": "934c1089-b612-4d96-932f-b6507ea4bcc4",
       "DisplayName": "listdemo",
       "ColorIndex": 3
+    },
+    "1a77da20-de9e-4140-be4b-c3c5482b694b": {
+      "ProjectGuid": "1a77da20-de9e-4140-be4b-c3c5482b694b",
+      "DisplayName": "Lang122b",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }

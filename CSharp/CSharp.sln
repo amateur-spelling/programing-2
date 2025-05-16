@@ -43,7 +43,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Stringint16", "Stringint16\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "listdemo", "listdemo\listdemo.csproj", "{934C1089-B612-4D96-932F-B6507EA4BCC4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lang122b", "Lang122b\Lang122b.csproj", "{1A77DA20-DE9E-4140-BE4B-C3C5482B694B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lang122b", "Lang122b\Lang122b.csproj", "{1A77DA20-DE9E-4140-BE4B-C3C5482B694B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "finalproject", "..\..\final\finalproject\finalproject.csproj", "{D9CECD82-F450-4FAF-8E03-D27F34C15AEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -135,6 +137,10 @@ Global
 		{1A77DA20-DE9E-4140-BE4B-C3C5482B694B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A77DA20-DE9E-4140-BE4B-C3C5482B694B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A77DA20-DE9E-4140-BE4B-C3C5482B694B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9CECD82-F450-4FAF-8E03-D27F34C15AEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9CECD82-F450-4FAF-8E03-D27F34C15AEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9CECD82-F450-4FAF-8E03-D27F34C15AEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9CECD82-F450-4FAF-8E03-D27F34C15AEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
